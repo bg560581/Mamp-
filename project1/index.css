@@ -1,0 +1,138 @@
+body {
+    background-color: #8f0000;
+}
+
+* {
+    text-align: center;
+}
+
+/*video {
+    width: 200px;
+    height: auto;
+    background-color: green;
+    margin: 5px;
+    padding: 15px;
+}*/
+
+.image img, video {
+    width: 300px;
+    height:auto;
+    background-color: green;
+    margin: 15px;
+    padding: 15px;
+}
+
+/*-TRIP_1-*/
+
+
+
+.trip1_pic1 {
+    background-color: white;
+    width:375px
+    
+}
+
+.trip1_pic2 {
+    background-color: white;
+    width:375px;
+
+}
+
+.trip1_pic3 {
+    background-color: white;
+    width:375px;
+}
+
+.trip1_pic4 {
+    background-color: white;
+    width:375px;
+}
+
+/*◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊-TRIP_ROME-◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊*/
+
+.trip-rome {
+}
+
+.rome {
+    background-color: white;
+    width:375px;
+}
+
+.rome_pic1 {
+    background-color: white;
+    width:375px;
+}
+
+.rome_pic2 {
+    background-color: white;
+    width:375px;
+}
+
+.rome_pic3 {
+    background-color: white;
+    width:375px;
+}
+
+.rome_pic4 {
+    background-color: white;
+    width:375px;
+}
+
+.rome_pic5 {
+    background-color: white;
+    width:375px;
+}
+
+/*_VILLANOVA_*/
+
+.villanova {
+}
+
+.villanova img {
+    margin: 15px;
+    padding: 15px;
+    width: 200px;
+    
+}
+
+.nova {
+    float: left;
+    /*visibility: hidden;*/
+    background-color: white;
+    width:250px;
+}
+
+.not_nova {
+    /*visibility: hidden;*/
+    background-color: white;
+    width:250px;
+    display: inline-block;
+    float: left
+
+}
+
+.nova_par { 
+    display: inline-block
+
+}
+
+/*_PIO-MOUNTAIN_TOWN-*/
+
+.pio {
+
+}
+
+.mt_town {
+}
+
+
+/**/
+
+.forte_di_marmi {
+
+}
+
+.marmi {
+
+}
+
