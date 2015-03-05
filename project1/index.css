@@ -25,7 +25,6 @@ body {
 /*-TRIP_1-*/
 
 
-
 .trip1_pic1 {
     background-color: white;
     width:375px
@@ -135,4 +134,15 @@ body {
 .marmi {
 
 }
+@media screen and (max-width: 700px) {
+  .image img, video {
+    display: block;
+    top: 0;
+    right: 0;
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+  }
+  
+  .trip1, .rome, .nova_pic, . {}
 
