@@ -118,22 +118,70 @@ body {
 /*_PIO-MOUNTAIN_TOWN-*/
 
 .pio {
+    background-color: white;
+    width:375px;
 
 }
 
 .mt_town {
+    background-color: white;
+    width:375px;
 }
 
 
-/**/
+/*FORTE_DI_MARMI*/
 
 .forte_di_marmi {
 
 }
 
+.marmi_pic {
+}
+
 .marmi {
+    background-color: white;
+    width:375px;
+}
+
+/*VENICE*/
+
+.trip_venice {
+    width: 375px;
 
 }
+
+.venice {
+    background-color: white;
+    width:375px;
+}
+
+.venice_boat {
+    width: 375px;
+    
+}
+
+.venice_boat1 {
+    float: left;
+    /*visibility: hidden;*/
+    background-color: white;
+    width:375px;
+}
+
+.venice_boat2 {
+    /*visibility: hidden;*/
+    background-color: white;
+    width:375px;
+    display: inline-block;
+}
+
+.venice_par { 
+    display: inline-block
+
+}
+
+
+
+/*MEDIA_QUERY*/
 @media screen and (max-width: 700px) {
   .image img, video {
     display: block;
@@ -141,8 +189,7 @@ body {
     right: 0;
     width: 200px;
     overflow: hidden;
-    height: 200px;
+    height: auto;
   }
-  
-  .trip1, .rome, .nova_pic, . {}
+
 
