@@ -1,5 +1,5 @@
 body {
-    background-color: #8f0000;
+    background-color: #650000;
 }
 
 * {
@@ -22,29 +22,24 @@ body {
     padding: 15px;
 }
 
+h1 {
+    font-size: 48px
+}
+
+h1, h2, h3, h4, h5, header, footer {
+        color: dimgrey;
+
+}
+
+
+
 /*-TRIP_1-*/
 
 
-.trip1_pic1 {
+.trip1_pic1, .trip1_pic2, .trip1_pic3, .trip1_pic4 {
     background-color: white;
     width:375px
     
-}
-
-.trip1_pic2 {
-    background-color: white;
-    width:375px;
-
-}
-
-.trip1_pic3 {
-    background-color: white;
-    width:375px;
-}
-
-.trip1_pic4 {
-    background-color: white;
-    width:375px;
 }
 
 /*◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊-TRIP_ROME-◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊*/
@@ -53,31 +48,6 @@ body {
 }
 
 .rome {
-    background-color: white;
-    width:375px;
-}
-
-.rome_pic1 {
-    background-color: white;
-    width:375px;
-}
-
-.rome_pic2 {
-    background-color: white;
-    width:375px;
-}
-
-.rome_pic3 {
-    background-color: white;
-    width:375px;
-}
-
-.rome_pic4 {
-    background-color: white;
-    width:375px;
-}
-
-.rome_pic5 {
     background-color: white;
     width:375px;
 }
@@ -126,17 +96,15 @@ body {
 .mt_town {
     background-color: white;
     width:375px;
+    height: auto;
 }
 
 
 /*FORTE_DI_MARMI*/
 
-.forte_di_marmi {
+.forte_di_marmi {}
 
-}
-
-.marmi_pic {
-}
+.marmi_pic {}
 
 .marmi {
     background-color: white;
@@ -147,7 +115,6 @@ body {
 
 .trip_venice {
     width: 375px;
-
 }
 
 .venice {
@@ -157,20 +124,16 @@ body {
 
 .venice_boat {
     width: 375px;
-    
+    background-color: white;
 }
 
 .venice_boat1 {
     float: left;
     /*visibility: hidden;*/
-    background-color: white;
-    width:375px;
 }
 
 .venice_boat2 {
     /*visibility: hidden;*/
-    background-color: white;
-    width:375px;
     display: inline-block;
 }
 
@@ -182,6 +145,15 @@ body {
 
 
 /*MEDIA_QUERY*/
+@media screen and (max-width:1000px) {
+    .italia {
+    width: 500px;
+    height: auto;
+    }
+
+
+}
+
 @media screen and (max-width: 700px) {
   .image img, video {
     display: block;
@@ -191,5 +163,25 @@ body {
     overflow: hidden;
     height: auto;
   }
+ .italia {
+     width: 500px;
+     height: auto;
+ }
+}
 
+@media screen and (max-width:400px) {
+    .image img, video, .venice, .marmi, .mt_town, .pio, .nova, .not_nova, .rome, .trip1_pic1, .trip1_pic2, .trip1_pic3, .trip1_pic4 {
+    display: block;
+    width: 200px;
+    margin: auto;
+    overflow: hidden;
+    height: auto;
+
+}
+   .italia {
+     width: 350px;
+     height: auto
+ }
+
+}
 
