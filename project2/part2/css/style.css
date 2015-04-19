@@ -1,9 +1,10 @@
 .ei-slider{
 	position: relative;
 	width: 100%;
-	max-width: 1920px;
-	height: 400px;
+	max-width: 1320px;
+	height: 650px;
 	margin: 0 auto;
+    
 }
 .ei-slider-loading{
 	width: 100%;
@@ -34,33 +35,246 @@
 .ei-slider-large li img{
 	width: 100%;
 }
-.ei-title{
+
+/*-----------------------------------------*/
+/*-----------------TITLE-------------------*/
+/*-----------------------------------------*/
+
+.ei-title {
 	position: absolute;
-	right: 50%;
-	margin-right: 13%;
-	top: 30%;
-    opacity: 0.5
+	right: 0%;
+	margin-right: 4%;
+	top: 40%;
+    float:right;
+    opacity: 0.7;
 }
-.ei-title h2, .ei-title h3{
+
+.ei-title h2, .ei-title h3 {
 	text-align: right;
+    display: inline-block;
+    padding-left: 90%;
 }
-.ei-title h2{
+.ei-title h2 {
 	font-size: 40px;
-	line-height: 50px;
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
-	color: #666;
+	color: #ff0000;
+    margin-right: 8%;
 }
-.ei-title h3{
+.ei-title h3 {
 	font-size: 70px;
-	line-height: 70px;
+	line-height: 50px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
-	color: #000;
+	color: #fff;
 }
+/*--------------------------------------------*/
+
+.ei-title.title1 {
+    top: 55%;
+}
+
+.ei-title.title1 h2 {
+}
+
+.ei-title.title1 h3 {
+    color: #000;
+    line-height: 60px;
+    margin-top: 0%
+}
+
+
+/*--------------------------------------------*/
+
+
+.ei-title.title2 {
+    line-height: 60px;
+    top: 50px
+}
+
+.ei-title.title2 h2 {
+    padding-left: 95%;
+}
+
+.ei-title.title2 h3 {
+    line-height: 85%
+}
+
+/*--------------------------------------------*/
+
+.ei-title.title3 {
+    line-height: 99px;
+}
+
+/*--------------------------------------------*/
+
+.ei-title.title4 {
+    line-height:85px;
+}
+
+.ei-title.title4 h2 {
+    padding-left: 92.7%;
+    color: #ffdddd;
+}
+
+.ei-title.title4 h3{
+    line-height:60px;
+}
+
+/*----------------------------------------------*/
+
+
+.ei-title.title5 {
+    line-height: 70px;
+    opacity: 0.5;
+}
+
+.ei-title.title5 h2 {
+    padding-left: 92%;
+}
+.ei-title.title5 h3 {
+    line-height: 55px;
+}
+
+
+/*--------------------------------------------*/
+
+.ei-title.title6 {
+    top: 1%;
+    float: left;
+    padding-right: 47%;
+    opacity: 0.7;
+}
+
+.ei-title.title6 h2 {
+    top: 1%;
+    padding-left: 1%;
+    float: left;
+    padding-bottom: 55%
+}
+
+.ei-title.title6 h3 {
+    color: #ccc;
+    padding-left: 2%;
+    padding-right: 4%;
+    line-height: 60px;
+}
+
+/*--------------------------------------------*/
+
+.ei-title.title8 {
+    padding-right: 50%;
+    top:25%
+    
+    
+}
+
+.ei-title.title8 h2 {
+    top: 1%;
+    padding-left: 1%;
+    float: left;
+    padding-bottom: 75%;
+    color:#0bd
+}
+
+.ei-title.title8 h3 {
+    color: #fff;
+    padding-left: 2%;
+    padding-right: 4%;
+    line-height: 60px;
+}
+
+/*--------------------------------------------*/
+
+.ei-title.title9 {
+    top:50%;
+    padding-left: 45%;
+    
+    
+}
+
+.ei-title-title9 h2 {
+    padding-left: 65%;
+    float: left;
+    padding-bottom: 75%;
+    color:#0bd;
+    line-height: 55%;
+    position: absolute
+}
+
+.ei-title.title9 h3 {
+    color: #fff;
+    padding-left: 1%;
+    padding-right: 0%;
+}
+
+
+/*--------------------------------------------*/
+
+
+.ei-title.title13{
+    
+}
+
+.ei.title.title13 h2 {
+    padding-left: 95%;
+    display: block;
+    float: right;
+    color: #fff;
+}
+
+.ei-title.title13 h3 {
+    
+    line-height: 80%;
+    margin-right: 5%;
+    letter-spacing: 3px;
+    text-align: right;
+}
+/*--------------------------------------------*/
+
+.ei-title.title14 {
+    top: 4%;    
+}
+
+.ei-title.title14 h2 {
+    padding-left: 91%
+}
+
+.ei-title.title14 h3 {
+    
+    line-height: 80%;
+    margin-right: 5%;
+}
+
+
+/*--------------------------------------------*/
+.ei-title.title15 {
+            top: 28%;
+
+}
+
+.ei-title.title15 h2 {
+    padding-left: 92.9%;
+    display: block;
+        
+    
+}
+
+.ei-title.title15 h3 {
+        line-height: 80%;
+
+}
+
+
+
+/*--------------------------------------------*/
+/*---------------THUMB_SLIDER----------------*/
+/*------------------------------------------*/
 .ei-slider-thumbs{
 	height: 13px;
-	margin: 0 auto;
+    width: inherit;
+    padding-left: 0%;
+	margin: 0% auto;
 	position: relative;
 }
 .ei-slider-thumbs li{
@@ -131,6 +345,10 @@
 	bottom: 13px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
+/*-----------------------------------------*/
+/*-----------------MEDIA-------------------*/
+/*-----------------------------------------*/
+
 @media screen and (max-width: 830px) {
 	.ei-title{
 		position: absolute;

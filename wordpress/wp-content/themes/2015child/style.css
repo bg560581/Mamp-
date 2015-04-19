@@ -1,0 +1,13 @@
+/*
+Them Name: My Child Theme
+Version: 1.0
+Description: A child them of Twenty Fifteen
+Template: twentyfifteen
+
+*/
+
+@import url("../twentyfifteen/style.css");
+
+body {
+    background-color: aqua
+}

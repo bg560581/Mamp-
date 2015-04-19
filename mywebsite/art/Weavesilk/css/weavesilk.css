@@ -1,0 +1,39 @@
+        
+body{text-align:center;
+    font-size: 20px;
+    font-family: Libian SC;}
+
+h3 {text-align:center;
+    font-size:50px;
+    color:#00664F}
+
+h3 span {border-bottom-style:ridge;
+         border-bottom-color: #00664F}
+
+p {font-size: 24px;
+   color: #00FBC3}
+
+img {width: 30%;}
+
+ul {list-style: none;}
+
+.st-content {background-color: #008D6D;}
+.st-content a {color: #033429}
+
+.mp-menu a {text-decoration: none;
+            color:#003428;}
+
+.mp-menu a:hover, a:focus {color:#7BFFE1;        
+}
+
+            
+.mp-level {background-color: #28B999 }
+
+.rotate {color:#6DD8C0;
+         font-size: 20px;
+        text-align: right;
+         margin-top: 30%;
+        font-family: Libian SC, monospace}
+
+#pages-silk {background-color: #FF8437}
+

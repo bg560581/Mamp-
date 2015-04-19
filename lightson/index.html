@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+<title>Tic Tac Toe</title>
+<style>
+#player2{
+	color: #CCC;
+}
+.XOs{
+  width:380px;  
+  margin: 0 auto;
+  background-image: url("img.jpg");
+  height:380px;
+  }
+  h2{
+	  width:380px;    
+  margin: 0 auto;
+	  font-family:"Lucida Console", Monaco, monospace;
+	  color:#039;
+	  padding:10px 5px;
+  }
+  .square{
+  height:100px;
+  width:100px;
+  margin:5px 10px;
+  float:left;
+  font-size: 100px;
+  text-align:center;
+  font-family: "Comic Sans MS", cursive;
+  }
+  .square:click{
+  }
+  .clickable{
+	color: #FFF;
+  }
+  .x{
+	background-color: #CCC;
+  }
+  .o{
+  background-color: #DDD;
+  }​
+ #score1{
+    font: 30px;
+    background: #666;
+	width:80px;
+	height:20px;
+	margin:0 auto;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#FFF;
+  }
+ #score2{
+    font: 30px;
+    background: #666;
+	width:380px;
+	height:20px;
+	margin:0 auto;
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#FFF;
+  }
+  #startagain{
+    margin-top:10px; 
+    margin-left:390px; 
+    border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 8.5px 17px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+  }
+ #startagain:hover {
+   border-top-color: #28597a;
+   background: #fff;
+   color: #999;
+   }
+</style>
+
+</head>
+
+<body>
+<h2>Let's play Tic Tac Toe!</h2>
+<div class="XOs">
+    <div class="square clickable" data-val="1"></div>
+    <div class="square clickable" data-val="2"></div>
+    <div class="square clickable" data-val="3"></div>
+    <div class="square clickable" data-val="4"></div>
+    <div class="square clickable" data-val="5"></div>
+    <div class="square clickable" data-val="6"></div>
+    <div class="square clickable" data-val="7"></div>
+    <div class="square clickable" data-val="8"></div>
+    <div class="square clickable" data-val="9"></div>
+  </div>
+<div id="score1"></div>
+<div id="score2"></div>
+<button id="startagain">Start again</button>
+
+</body>
+<script>
+	
+    var round="x";
+    var player1=[]; 
+    var player2=[];  
+     var win1 = [1,5,9]; //winning cobinations
+     var win2 = [1,4,7];
+     var win3 = [1,2,3];
+     var win4 = [4,5,6];     
+     var win5 = [7,8,9];
+     var win6 = [2,5,8];
+     var win7 = [3,6,9];
+     var win8 = [3,5,7];
+     var wins = [win1, win2, win3, win4, win5, win6, win7, win8]; //all 
+     var score1 = 0;
+     var score2=0;
+     var startGame=function(){
+           player1 = [];
+           player2 = [];
+         $(".box").each(function(){
+          $(this).text("");
+        });
+         wins=[win1, win2, win3, win4, win5, win6, win7, win8];
+         round="x";
+     }    
+     
+    $(".grid").click(function(){
+        var celltext=$(this).text();
+        if(celltext==""){
+            if(round=="x"){
+                $(this).text("x");
+                player1.push($(this).data("val"));
+                round="o";
+            }
+            else{
+                $(this).text("o");
+                player2.push($(this).data("val"));
+                 round="x";
+                
+                } 
+               
+               $.each(wins, function(i,v){
+                  if(player1.length>=3){
+                    var flag = true;
+                
+                    $.each(v,function(key,value){
+                        if($.inArray(value,player1)==-1){
+                          flag = false;
+                        }
+                    })
+                    if(flag == true){
+                      alert("player1 win!");
+                       score1++ ;
+                      $("#score1").text("X: SCORE="+score1);    
+                      return;                  
+                                                       
+                                   }
+                  }
+              
+                  if(player2.length>=3){
+                    var flag = 1;
+                    $.each(v,function(key,value){
+                        if($.inArray(value,player2)==-1){
+                          flag = 2;
+                        }
+                    })
+                    if(flag == 1){
+                      alert("player2 win!");
+                       score2++ ;                  
+                      $("#score2").text("O: SCORE="+score2);
+                      return;
+                      
+                                         }
+                  }
+               });
+            };
+   });
+ $("#startagain").click(function(){
+                      startGame();
+                     
+                     });
+</script>
+</html>
