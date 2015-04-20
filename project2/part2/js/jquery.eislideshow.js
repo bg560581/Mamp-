@@ -73,15 +73,16 @@
 		// animation types:
 		// "sides" : new slides will slide in from left / right
 		// "center": new slides will appear in the center
-		animation			: 'sides', // sides || center
-		// if true the slider will automatically slide, and it will only stop if the user clicks on a thumb
-		autoplay			: false,
+		//animation			: 'sides',// 'sides' || center
+        animation			: 'sides' || center,
+        // if true the slider will automatically slide, and it will only stop if the user clicks on a thumb
+		autoplay			: true,
 		// interval for the slideshow
-		slideshow_interval	: 3000,
+		slideshow_interval	: 4000,
 		// speed for the sliding animation
 		speed			: 800,
 		// easing for the sliding animation
-		easing			: '',
+		ease			: '',
 		// percentage of speed for the titles animation. Speed will be speed * titlesFactor
 		titlesFactor		: 0.60,
 		// titles animation speed
@@ -344,9 +345,11 @@
 			this.$thumbs.on( 'click.eislideshow', function( event ) {
 				
 				if( _self.options.autoplay ) {
-				
-					clearTimeout( _self.slideshow );
-					_self.options.autoplay	= false;
+                    
+				//stops slideshow--change autoplay to false
+					
+                    //clearTimeout( _self.slideshow );
+                    _self.options.autoplay	= true;
 				
 				}
 				
@@ -355,7 +358,7 @@
 					
 				_self._slideTo( idx );
 				
-				return false;
+				return true;
 			
 			});
 			
