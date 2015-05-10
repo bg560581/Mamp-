@@ -1,0 +1,325 @@
+# Translation of Spun in Hebrew
+# This file is distributed under the same license as the Spun package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-06-30 17:28:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Spun\n"
+
+msgid "Spun is a minimalist theme that puts the emphasis on your content; extraneous navigation fades away to put your words and images front and center. Whether you're a writer, photographer, or personal blogger, Spun's beautiful typography and responsive design showcase your creativity with subtle elegance."
+msgstr "<span dir=rtl>Spun היא ערכת עיצוב אשר שמה דגש על התוכן שלך; כל אמצעי הניווט שאינם שייכים נעלמים על מנת לשים את המלים והתמונות שלך במרכז.</span> <span dir=rtl>בין אם אתה עוסק בכתיבה, צלם, או בלוגר של בלוג אישי, הטיפוגרפיה היפהפייה והעיצוב הניתן להתאמה של Spun מציגים לראווה את היצירתיות שלך באלגנטיות מעודנת.</span>"
+
+#: searchform.php:11
+msgid "Go"
+msgstr "שלח"
+
+#: searchform.php:10
+msgid "Search &hellip;"
+msgstr "חיפוש &hellip;"
+
+#: searchform.php:9
+msgid "Search"
+msgstr "חיפוש"
+
+#: search.php:16
+msgid "Search %s"
+msgstr "לחפש %s"
+
+#: inc/template-tags.php:122
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> מאת <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:128
+msgid "View all posts by %s"
+msgstr "הצגת הרשומות של %s"
+
+#: inc/template-tags.php:99
+msgid "%1$s at %2$s"
+msgstr "%1$s בשעה %2$s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה ממתינה לאישור."
+
+#: inc/template-tags.php:88
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">הגיב:</span>"
+
+#: inc/template-tags.php:41
+msgctxt "Previous post link"
+msgid "&laquo; Previous Post"
+msgstr "&raquo; לרשומה הקודמת"
+
+#: inc/template-tags.php:42
+msgctxt "Next post link"
+msgid "Next Post &raquo;"
+msgstr "לרשומה הבאה &laquo;"
+
+#: inc/template-tags.php:47
+msgctxt "Next posts link"
+msgid "&laquo;"
+msgstr "&raquo;"
+
+#: inc/template-tags.php:51
+msgctxt "Previous posts link"
+msgid "&raquo;"
+msgstr "&laquo;"
+
+#: inc/template-tags.php:75
+msgid "Pingback:"
+msgstr "פינגבק:"
+
+#: inc/template-tags.php:37
+msgid "Post navigation"
+msgstr "ניווט ברשומות"
+
+#: inc/customizer.php:30
+msgid "Always show color circles"
+msgstr ""
+
+#: inc/customizer.php:43
+msgid "Always show post titles over circles"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Fully opaque meta"
+msgstr ""
+
+#: inc/extras.php:159
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: image.php:84
+msgid "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span><br /><a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a><br /><a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span><br /><a href=\"%3$s\" title=\"קישור לתמונה המוקדלת\">%4$s &times; %5$s</a><br /><a href=\"%6$s\" title=\"חזרה ל- %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: inc/customizer.php:20
+msgid "Theme Options"
+msgstr "אפשרויות"
+
+#: image.php:17
+msgid "<span class=\"meta-nav\">&laquo;</span>"
+msgstr ""
+
+#: image.php:18
+msgid "<span class=\"meta-nav\">&raquo;</span>"
+msgstr "<span class=\"meta-nav\">&laquo;</span>"
+
+#: image.php:69
+msgid "Pages:"
+msgstr ":עמודים"
+
+#: header.php:38
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: functions.php:253
+msgctxt "Nunito font: on or off"
+msgid "on"
+msgstr "off"
+
+#: header.php:37
+msgid "Menu"
+msgstr "תפריט"
+
+#: functions.php:86
+msgid "Sidebar 2"
+msgstr "סרגל צדדי 2"
+
+#: functions.php:94
+msgid "Sidebar 3"
+msgstr "סרגל צידי 3"
+
+#: functions.php:235
+msgctxt "Playfair font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:244
+msgctxt "Quicksand font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:78
+msgid "Sidebar 1"
+msgstr "סרגל צדדי 1"
+
+#: functions.php:50
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: footer.php:44
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: footer.php:39
+msgid "Twitter"
+msgstr "טוויטר"
+
+#: footer.php:34
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: footer.php:29
+msgid "Facebook"
+msgstr "פייסבוק"
+
+#: footer.php:23
+msgid "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
+
+#: content-status.php:33
+msgid "@"
+msgstr "@"
+
+#: footer.php:21
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: content-status.php:33
+msgid "Permalink to %s"
+msgstr "קישור קבוע לרשומה %s"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "לא מצאתי כלום"
+
+#: content-link.php:13
+msgid "Link"
+msgstr "קישור"
+
+#: content-aside.php:45 content-gallery.php:51 content-image.php:52
+#: content-link.php:47 content-page.php:30 content-quote.php:46
+#: content-single.php:41 content-status.php:38 content-video.php:46
+#: content.php:49 image.php:94 inc/template-tags.php:75
+#: inc/template-tags.php:101
+msgid "Edit"
+msgstr "עריכה"
+
+#: content-aside.php:41 content-gallery.php:47 content-image.php:48
+#: content-link.php:43 content-quote.php:42 content-single.php:37
+#: content-video.php:42 content.php:34 content.php:45
+msgid "%1$s"
+msgstr "%1$s"
+
+#: content-aside.php:36 content-gallery.php:42 content-image.php:43
+#: content-link.php:38 content-quote.php:37 content-single.php:32
+#: content-video.php:37 content.php:30 content.php:40
+msgid ", "
+msgstr ", "
+
+#: content-aside.php:31 content-gallery.php:38 content-image.php:38
+#: content-link.php:33 content-quote.php:32 content-status.php:36
+#: content-video.php:32
+msgid "All %s posts"
+msgstr "כל הרשומות של %s"
+
+#: comments.php:65
+msgid "x"
+msgstr "x"
+
+#: comments.php:39
+msgctxt "Previous Comments"
+msgid "<span class=\"screen-reader-text\">&laquo;</span>"
+msgstr ""
+
+#: comments.php:40
+msgctxt "Next Comments"
+msgid "<span class=\"screen-reader-text\">&raquo;</span>"
+msgstr "<span class=\"screen-reader-text\">&laquo;</span>"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: comments.php:38
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#: archive.php:45
+msgid "Year %s"
+msgstr "שנה %s"
+
+#: archive.php:48
+msgid "Post Format %s"
+msgstr "פורמט רשומה %s"
+
+#: archive.php:51
+msgid "Archives"
+msgstr "ארכיון"
+
+#: archive.php:21
+msgid "Category %s"
+msgstr "קטגוריה %s"
+
+#: archive.php:24
+msgid "Tag %s"
+msgstr ""
+
+#: archive.php:31
+msgid "Author %s"
+msgstr ""
+
+#: archive.php:39
+msgid "Day %s"
+msgstr "תאריך %s"
+
+#: archive.php:42
+msgid "Month %s"
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "נראה שלא נמצא כלום במיקום הזה. אולי תנסו לחפש?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס. העמוד שביקשת אינו קיים."
+
+#: sidebar.php:12
+msgctxt "Open sidebar"
+msgid "+"
+msgstr "+"
+
+#: content-aside.php:22 content-gallery.php:29 content-image.php:29
+#: content-link.php:24 content-page.php:24 content-quote.php:23
+#: content-single.php:21 content-status.php:27 content-video.php:23
+#: image.php:78 inc/template-tags.php:84
+msgid "+"
+msgstr "+"
+
+#: content-aside.php:22 content-gallery.php:29 content-image.php:29
+#: content-link.php:24 content-page.php:24 content-quote.php:23
+#: content-single.php:21 content-status.php:27 content-video.php:23
+#: content.php:21 image.php:78
+msgid "1"
+msgstr "1"
+
+#: content-aside.php:22 content-gallery.php:29 content-image.php:29
+#: content-link.php:24 content-page.php:24 content-quote.php:23
+#: content-single.php:21 content-status.php:27 content-video.php:23
+#: image.php:78
+msgid "%"
+msgstr "%"
